@@ -1,3 +1,3 @@
 <h1 align="center"> 
-	🚧  Amazon Clone Full Functionality #ReactChallenge 🚀 Em construção...  🚧
+	🚧  Posdcastr #nlw-5 trilha React 🚀 Em construção...  🚧
 </h1>
