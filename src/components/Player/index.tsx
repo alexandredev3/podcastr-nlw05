@@ -86,6 +86,8 @@ export function Player() {
             src={episode.url}
             ref={audioRef}
             autoPlay
+            onPlay={() => setPlayingState(true)}
+            onPause={() => setPlayingState(false)}
           />
         )}
 
@@ -101,8 +103,6 @@ export function Player() {
             className={styles.playButton}
             disabled={!episode}
             onClick={togglePlay}
-            onPlay={() => setPlayingState(true)}
-            onPause={() => setPlayingState(false)}
           >
             {isPlaying ? (
               <img src="/pause.svg" alt="Tocar"/>
