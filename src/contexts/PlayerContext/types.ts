@@ -12,9 +12,19 @@ export type PlayerContextData = {
   episodeList: Episode[];
   currentEpisodeIndex: number;
   isPlaying: boolean;
+  isLooping: boolean;
+  isShuffling: boolean;
+  hasNext: boolean;
+  hasPrevious: boolean;
   play: (episode: Episode) => void;
   setPlayingState: (state: boolean) => void;
   togglePlay: () => void;
+  toggleLoop: () => void;
+  toggleShuffle: () => void;
+  playList: (list: Episode[], index: number) => void;
+  playNext: () => void;
+  playPrevious: () => void;
+  clearPlayerState: () => void;
 }
 
 export type PlayerProviderProps = {
