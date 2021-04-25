@@ -4,7 +4,7 @@
   <a href="https://www.linkedin.com/in/alexandre-costa-401699199">
     <img alt="Linkedin" src="https://img.shields.io/badge/-Alexandre%20Costa-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
   </a>
-  <a href="https://github.com/alexandredev3/podcastr-nlw05/blob/main/.github/LICENSE.txt">
+  <a href="https://github.com/alexandredev3/podcastr-nlw05/.github/LICENSE.txt">
     <img alt="GitHub license" src="https://img.shields.io/github/license/alexandredev3/podcastr-nlw05?logo=mint&style=flat-square">
   </a>
   <a href="https://github.com/alexandredev3/podcastr-nlw05/issues">
@@ -97,4 +97,4 @@ Feito com ❤️ por Alexandre Costa :wave::wave: Entre em contato!🚀
 ## :memo: Licença
 
 Copyright © 2020 [Alexandre Costa](https://github.com/alexandredev3).<br />
-This project is [MIT](./LICENSE.txt) licensed.
+This project is [MIT](./.github/LICENSE.txt) licensed.
